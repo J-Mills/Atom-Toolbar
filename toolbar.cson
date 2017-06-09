@@ -1,0 +1,114 @@
+# This file is used by Flex Tool Bar to create buttons on your Tool Bar.
+# For more information how to use this package and create your own buttons,
+#   read the documentation on https://atom.io/packages/flex-tool-bar
+
+[
+  {
+    type: "button"
+    icon: "gear"
+    callback: "flex-tool-bar:edit-config-file"
+    tooltip: "Edit Tool Bar"
+  }
+  {
+    type: "spacer"
+  }
+  {
+    type: "button"
+    icon: "triangle-right"
+    callback: "script:run"
+    tooltip: "Run Code"
+    style:
+      color: "#55AAFF"
+  }
+  {
+    type: "button",
+    icon: "file-text",
+    callback: "application:new-file",
+    tooltip: "New File"
+  }
+  {
+    type: "button",
+    icon: "file-directory",
+    callback: "application:open",
+    tooltip: "Open"
+  }
+  {
+    type: "button"
+    icon: "tools"
+    callback: "settings-view:open"
+    tooltip: "Settings"
+  }
+  {
+    type: "spacer"
+  }
+  {
+    type: "button"
+    icon: "heart"
+    callback: "atom-beautify:beautify-editor"
+    tooltip: "Beautify"
+    style:
+      color: "#DD4444"
+  }
+  {
+    type: "button"
+    icon: "globe"
+    callback: "atom-html-preview:toggle"
+    tooltip: "HTML Preview"
+    style:
+      color: "#22DDBB"
+  }
+  {
+    type: "button"
+    icon: "checklist"
+    callback: "todo-show:find-in-project"
+    tooltip: "Show Tasks"
+    style:
+      color: "#99FF55"
+  }
+  {
+    type: "button"
+    icon: "gist"
+    callback: "markdown-preivew:toggle"
+    tooltip: "Markdown Preview"
+    style:
+      color: "#AABBFF"
+  }
+  {
+    type: "spacer"
+  }
+  {
+    type: "button"
+    icon: "paintcan"
+    callback: "color-picker:open"
+    tooltip: "Colour Picker"
+    style:
+      color: "#e4a547"
+  }
+  {
+    type: "button"
+    icon: "telescope"
+    callback: "git-time-machine:toggle"
+    tooltip: "Time Machine"
+    style:
+      color: "#3fdbfe"
+  }
+  {
+    type: "button"
+    icon: "terminal"
+    callback: "git-plus:run"
+    tooltip: "Git Plus"
+    style:
+      color: "#d3eb5f"
+  }
+  {
+    type: "button"
+    icon: "diff-renamed"
+    callback: "git-plus:commit"
+    tooltip: "Git commit -m"
+    style:
+      color: "#f0718f"
+  }
+  {
+    type: "spacer"
+  }
+]
